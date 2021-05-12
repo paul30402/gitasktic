@@ -1,9 +1,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#!/usr/bin/env python
+# coding: utf-8
+=======
+>>>>>>> dace47f8378600cf95764da4da367daa5946fb65
 """
 This file is part of the github course W2 task
 """
 import numpy as np
+>>>>>>> 754c5963d52b7f35ac340377aed974049123b36b
 
 iter = [0, 1, 2, 4, 5, 6, 8, 9]
 def miss_num_func(iter):
@@ -23,6 +30,21 @@ def miss_num_func(iter):
     all_index = list(range(0, n+1))
     lis_dif = [i for i in all_index if i not in same_index]
 
+<<<<<<< HEAD
+print(miss_num_funct(iter))
+=======
+def miss_func_num(iter):
+    return [x for x in range(lst[0], lst[-1]+1)
+                               if x not in iter]
+
+# Driver code
+iter = [0, 1, 2, 4, 5, 6]
+miss = miss_func_num(iter)
+for i in miss:
+    print(i)
+#print(miss)
+>>>>>>> 1a0e1ec27b773629fa1e3a38e16f7d321aebc87b
+=======
     item = []
     for i in range(len(lis_dif)):
         item.append(compare[lis_dif[i]])
@@ -32,6 +54,7 @@ def miss_num_func(iter):
 miss = miss_num_func(iter)
 
 miss
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 50a546aa2d4be86bdbde870a452fff9b9c45c8bb
@@ -58,3 +81,6 @@ def miss_num_func():
 print(miss_num_funct(iter))
 >>>>>>> 478a3b7c3cc5c5e82136935595c679a077b1f535
 >>>>>>> 50a546aa2d4be86bdbde870a452fff9b9c45c8bb
+=======
+>>>>>>> 754c5963d52b7f35ac340377aed974049123b36b
+>>>>>>> dace47f8378600cf95764da4da367daa5946fb65
