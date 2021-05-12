@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 def miss_func_num(iter):
     return [x for x in range(iter[0], iter[-1]+1)
                                if x not in iter]
@@ -10,6 +11,9 @@ for i in miss:
     print(i)
 #print(miss)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 68d7dd20d5297c4671f175d03a0d6fb32ebfb2b1
 """
 This file is part of the github course W2 task
 """
@@ -42,4 +46,24 @@ def miss_num_func(iter):
 miss = miss_num_func(iter)
 
 miss
+<<<<<<< HEAD
 >>>>>>> 754c5963d52b7f35ac340377aed974049123b36b
+=======
+=======
+=======
+>>>>>>> 50a546aa2d4be86bdbde870a452fff9b9c45c8bb
+def miss_func_num(iter):
+    return [x for x in range(iter[0], iter[-1]+1)
+                               if x not in iter]
+
+# Driver code
+iter = [0, 1, 2, 4, 5, 6]
+miss = miss_func_num(iter)
+for i in miss:
+    print(i)
+#print(miss)
+<<<<<<< HEAD
+>>>>>>> 1a0e1ec27b773629fa1e3a38e16f7d321aebc87b
+=======
+>>>>>>> 50a546aa2d4be86bdbde870a452fff9b9c45c8bb
+>>>>>>> 68d7dd20d5297c4671f175d03a0d6fb32ebfb2b1
