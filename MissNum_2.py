@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 """
 This file is part of the github course W2 task
 """
@@ -32,6 +33,8 @@ miss = miss_num_func(iter)
 
 miss
 =======
+=======
+>>>>>>> 50a546aa2d4be86bdbde870a452fff9b9c45c8bb
 def miss_func_num(iter):
     return [x for x in range(iter[0], iter[-1]+1)
                                if x not in iter]
@@ -42,4 +45,7 @@ miss = miss_func_num(iter)
 for i in miss:
     print(i)
 #print(miss)
+<<<<<<< HEAD
 >>>>>>> 1a0e1ec27b773629fa1e3a38e16f7d321aebc87b
+=======
+>>>>>>> 50a546aa2d4be86bdbde870a452fff9b9c45c8bb
