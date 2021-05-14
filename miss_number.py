@@ -1,7 +1,7 @@
 while True:
     try:
-        iter_str = input('Take in numbers: ')
-        iter_str = iter_str.split()
+        iter_str = input('Take in numbers, e.g. 1, 2, 3, 4, 5: ')
+        iter_str = iter_str.split(', ')
         iter_int = []
         for i in iter_str:
             iter_int.append(int(i))
