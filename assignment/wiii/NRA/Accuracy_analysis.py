@@ -34,8 +34,7 @@ list_sub_p = list_sub.copy()
 list_sub_st = list_sub.copy()
 list_sub_sw = list_sub.copy()
 
-
-#filter data frame for pure similarity
+#filter dataframe for pure similarity
 
 o = []
 l= []        
@@ -70,10 +69,9 @@ pure_similarity_accuracy = pd.concat([df0, df1], axis=1)
 pure_similarity_accuracy['acc%_pure'] = pure_similarity_accuracy['sum_accuracy']/pure_similarity_accuracy['sum_pure_sim']*100
 
 
-
 #🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒
 
-#filter data frame for stay similarity
+#filter dataframe for stay similarity
      
 p= []        
 o = []
@@ -111,7 +109,7 @@ stay_similarity_accuracy['acc%_stay'] = stay_similarity_accuracy['sum_accuracy']
 
 #🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒🗒
 
-#filter data frame for switch similarity
+#filter dataframe for switch similarity
 
 
 
