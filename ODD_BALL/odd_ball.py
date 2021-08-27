@@ -12,6 +12,8 @@ Experimental flow:
     Import and Setup.
 """
 
+# I am testing the staging hunks thing...
+
 ## Script Partition ##
 """ Each boolean value represent each part of experiment.
 If Set true it will run it, this helps with debug.
@@ -19,7 +21,7 @@ If Set true it will run it, this helps with debug.
 instruction = True
 demo_gui = True
 beh = True
-eeg = True
+eeg = False # Is this needed?
 debug = False
 
 
